@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #f0f4f8);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  header {
+    background: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+  }
+  
+  section {
+    padding: 3rem 0;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .contact p,
+  footer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  footer {
+    background: #f1f5f9;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1.5rem;
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .project-card {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    header {
+      padding: 2rem 1rem;
+    }
+  
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    header p {
+      font-size: 0.95rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    .project-card {
+      padding: 0.9rem;
+    }
+  
+    .contact p,
+    footer p {
+      font-size: 0.9rem;
+    }
+  }
+  
